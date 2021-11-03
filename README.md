@@ -7,4 +7,4 @@ El objetivo de la sesión es conocer a grandes rasgos qué es `docker-compose`, 
 
 ---
 
-Con ❤️ por [Santi Leiva](santiago.leiva@redb.ee) ([Fpay - Stranger Team](stranger-team@redb.ee))
+Con ❤️ por [Santi Leiva](mailto:santiago.leiva@redb.ee) ([Fpay - Stranger Team](mailto:stranger-team@redb.ee))
