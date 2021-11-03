@@ -39,5 +39,5 @@ services:
 Abriendo una terminal en donde se encuentre el archivo, ejecutar lo siguiente:
 
 ```bash
-sudo docker-compose up --build
+sudo docker-compose up
 ```
