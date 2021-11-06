@@ -3,24 +3,11 @@ version: '3'
 services:
 
   users-db:
-    image: postgres:12.7-alpine
-    container_name: users-db
-    ports:
-      - 5432:5432
-    volumes:
-      - "./database/init.sql:/docker-entrypoint-initdb.d/init.sql"
-    environment:
-      POSTGRES_USER: "postgres"
-      POSTGRES_PASSWORD: "postgres"
+    # ...
+    # ...
+    # ...
 
   users-api:
-      build: ./users
-      container_name: "users-api"
-      ports:
-        - 8080:8080
-      environment:
-        USERS_DATABASE_URL: "jdbc:postgresql://users-db:5432/postgres"
-        USERS_DATABASE_USERNAME: "postgres"
-        USERS_DATABASE_PASSWORD: "postgres"
-      depends_on:
-        - users-db
+    # ...
+    # ...
+    # ...
